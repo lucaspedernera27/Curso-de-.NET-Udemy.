@@ -10,7 +10,7 @@ namespace Curso_de_.NET_Udemy
 
             int[] arreglo = new int[1];
 
-            //Mostramos un mje y capturamos el dato ingresado desde la consola
+            //Mostramos un mje y capturamos el dato ingresado desde la consola.
 
             Console.WriteLine("Escriba el numero de pisos deseado: ");
 
