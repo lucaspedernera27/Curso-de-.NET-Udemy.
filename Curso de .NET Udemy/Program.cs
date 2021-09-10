@@ -6,24 +6,16 @@ namespace Curso_de_.NET_Udemy
     {
         static void Main(string[] args)
         {
-            var data = 8;
+            var data = 3;
 
-            switch (data)
-            {
-                case 5:
-                    Console.WriteLine("{0}", data);
-                    break;
-                case 6:
-                    Console.WriteLine("{0}", data);
-                    break;
-                case 8:
-                    Console.WriteLine("{0}", data);
-                    break;
+            var result = data switch {
 
-                default:
-                    Console.WriteLine("No se encontro la variable");
-                    break;
-            }
+                1 => "Alex",
+                2 => "Jhon",
+                3 => "Arthur"
+
+            };
+            Console.WriteLine("{0}", result);
 
             Console.ReadKey();
         }
